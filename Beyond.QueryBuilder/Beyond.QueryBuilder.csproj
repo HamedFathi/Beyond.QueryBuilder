@@ -8,7 +8,7 @@
 		<Authors>Hamed Fathi</Authors>
 		<Company />
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 		<LangVersion>latest</LangVersion>
 		<PackageProjectUrl>https://github.com/HamedFathi/Beyond.QueryBuilder</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/HamedFathi/Beyond.QueryBuilder</RepositoryUrl>
