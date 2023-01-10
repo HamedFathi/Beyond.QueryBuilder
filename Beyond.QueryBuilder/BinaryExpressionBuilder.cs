@@ -1,11 +1,11 @@
 ﻿// ReSharper disable UnusedParameter.Local
 
-using Beyond.QueryBuilder.Helpers;
-using Beyond.QueryBuilder.Models;
 using System.Collections;
 using System.Linq.Expressions;
 using System.Reflection;
 using System.Text.RegularExpressions;
+using Beyond.QueryBuilder.Helpers;
+using Beyond.QueryBuilder.Models;
 
 namespace Beyond.QueryBuilder;
 

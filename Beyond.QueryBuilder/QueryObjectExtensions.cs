@@ -2,11 +2,11 @@
 // ReSharper disable UnusedMember.Global
 // ReSharper disable InconsistentNaming
 
-using Beyond.QueryBuilder.Helpers;
-using Beyond.QueryBuilder.Models;
 using System.Linq.Expressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using Beyond.QueryBuilder.Helpers;
+using Beyond.QueryBuilder.Models;
 
 namespace Beyond.QueryBuilder;
 

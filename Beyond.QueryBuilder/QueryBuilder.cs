@@ -2,14 +2,14 @@
 // ReSharper disable InconsistentNaming
 // ReSharper disable UnusedMember.Global
 
-using Beyond.QueryBuilder.Enums;
-using Beyond.QueryBuilder.Helpers;
-using Beyond.QueryBuilder.Models;
 using System.Collections;
 using System.Linq.Expressions;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
+using Beyond.QueryBuilder.Enums;
+using Beyond.QueryBuilder.Helpers;
+using Beyond.QueryBuilder.Models;
 
 namespace Beyond.QueryBuilder;
 
