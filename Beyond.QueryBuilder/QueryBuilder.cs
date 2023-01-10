@@ -56,7 +56,14 @@ public class QueryBuilder<T>
         var status = NotationConverter.IsValidInfix(_infix, OperandPattern);
         if (!status)
         {
-            throw new Exception($"The query builder structure is invalid. It looks like {_infix}");
+            var readableInfix = _infix
+                .Replace("#", " #")
+                .Replace("(", " (")
+                .Replace(")", " )")
+                .Replace("&", " AND ")
+                .Replace("|", " OR ")
+                .Trim();
+            throw new Exception($"The query builder structure is invalid. Make sure you have just one Build() at the end and enough And() & OR(). It looks like \"{readableInfix}\"");
         }
 
         _infix = NotationConverter.CompleteParenthesisOfInfix(_infix, OperandPattern);
